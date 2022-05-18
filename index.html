@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRANAJAL</title>
+    
+</head>
+<style>
+   body{
+        background-image:url(/pictures/land2.png),url(/pictures/land2.png);
+       /* position: absolute;*/
+        background-repeat: no-repeat;
+        background-size: cover;
+       /* width: 500%;
+        height: 500%;*/
+    }
+   
+    h1:hover{
+        color: blue;
+        opacity: 0.6;
+        transition: 0.3s;
+    }
+    h1{
+        padding-top: 100px;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 10em;
+        font-style: italic;
+    }
+   .paragraph1{
+       font-size: 5em;
+        padding-top: 10px;
+       padding-bottom: 100px;
+       top: 50%;
+        left: 50%;
+        right: 150px;
+  background-color: none;
+  position: absolute;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 2;
+  animation-direction: alternate-reverse;  
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}      
+    #btn{
+       /*  margin: 0;*/
+         position: relative;
+         background-color: black;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        width: 10px;
+        height: 10px;
+    }
+    #btn:hover{
+        background-color: aqua;
+        border-radius: 50px;
+    }
+    form{
+        align-items: center;
+        text-align: center;
+        margin: auto;
+        width: 1000px;;
+    }
+</style>
+<body>
+        
+    <form>
+        
+            <div class="heading">
+                <h1>BRANJAL ADVENTURES </h1>
+            </div>
+               <p class="paragraph1">WELCOME</p>
+            <a id="btn" title="click here for more details" href="home.html">click</a>
+       
+    
+    </form>
+</body>
+</html>
